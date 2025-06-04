@@ -217,7 +217,7 @@ This approach helps **validate classification predictions** with spectral physic
 
 ## 🧠 Future Roadmap
 
-- ✅ Expand support for rare earths
+- ✅ Expand support for rare earth elements 
 - 🧠 Model ensemble voting (average across multiple models)
 - 📤 Export results to Excel
 - 🌐 Web GUI using Flask or Streamlit
