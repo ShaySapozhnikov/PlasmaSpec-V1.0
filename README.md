@@ -86,7 +86,7 @@ plasmaspec/
 
 ```bash
 git clone https://github.com/ShaySapozhnikov/PlasmaSpec-V1.0
-cd plasma-spectrum-cli
+cd PlasmaSpec-V1.0
 ```
 
 ### 2. Install Dependencies
