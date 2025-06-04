@@ -155,7 +155,8 @@ Each model is scoped to a subset of elements:
 - `Heavy_metals_rf_classifier.pkl`
 - `Light_elements_rf_classifier.pkl`
 - `Rare_Earth_Elements_model.pkl`
-- etc.
+- `Nonmetals_&_Metalloids_model.pkl`
+- `Transition_Metals_model.pkl`
 
 Each follows Scikit-learn's API:
 ```python
