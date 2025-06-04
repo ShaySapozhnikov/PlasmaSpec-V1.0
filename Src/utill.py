@@ -1,9 +1,10 @@
 import os
-
+from pathlib import Path
 
 
 #BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-BASE_DIR = os.path.abspath(".")
+#BASE_DIR = os.path.abspath(".")
+BASE_DIR = Path(__file__).resolve().parent.parent
 FIRST_RUN_FILE = ".first_run_flag"
 
 def is_first_run():
