@@ -63,8 +63,7 @@ This tool employs a combination of:
 ## 📁 Project Structure
 
 ```plaintext
-plasmaspec/
-├── Doc/                       # Documentation
+plasmaspec/                   
 ├── Models/                   # Trained ML models (Random Forest)
 │   └── [Grouped by element class]/
 ├── Reference Data/Data/      # Reference elemental spectra (.csv)
@@ -86,7 +85,7 @@ plasmaspec/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/plasma-spectrum-cli.git
+git clone https://github.com/ShaySapozhnikov/PlasmaSpec-V1.0
 cd plasma-spectrum-cli
 ```
 
