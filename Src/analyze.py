@@ -8,7 +8,7 @@ from colorama import Fore, Style
 from scipy.signal import savgol_filter
 
 def spectrum_similarity(input_df, ref_df, wavelength_tol=0.5, intensity_tol=0.1):
-    # (copy your existing spectrum_similarity code here)
+   
     input_waves = input_df['Wavelength (nm)'].values
     input_intens = input_df['Normalized'].values
     ref_waves = ref_df['Wavelength (nm)'].values
@@ -93,7 +93,7 @@ def analyze_sample_spectra():
     temp_processed_file = os.path.join(os.getcwd(), "temp_processed_input.csv")
     df_clean.to_csv(temp_processed_file, index=False)
 
-    # Prediction and plotting logic (like your predict_and_plot_reference function)
+    # Prediction and plotting logic 
     try:
         new_data = pd.read_csv(temp_processed_file)
     except Exception as e:
